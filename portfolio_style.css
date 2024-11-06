@@ -1,0 +1,120 @@
+/* Sayfanın üst kısmındaki boşluğu kaldır */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* About Me Bölümü */
+.about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+    margin-top: 20px;
+}
+
+/* Başlık Kutuları */
+.title-box {
+    width: 100%;
+    height: 70px; 
+    background: linear-gradient(to right, #0c0b0b, #b11f1f); 
+    border-radius: 10px;
+    color: white;
+    padding: 20px; 
+    box-sizing: border-box;
+    text-align: center;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    font-weight: bold; 
+    letter-spacing: 1.5px; 
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+/* Bilgi Kutuları */
+.info-box {
+    width: 100%;
+    height: 300px; 
+    background: linear-gradient(to right, #0c0b0b, #b11f1f); 
+    border-radius: 10px;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    margin-bottom: 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Başlıklar için yeni stil */
+.info-box .clickable-title {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    z-index: 2;
+    font-size: 35px;
+    color: #fff;
+    cursor: pointer;
+    transition: transform 0.5s, opacity 0.5s; 
+}
+
+/* Gizli Metinler için stil */
+.info-box .hidden-text {
+    font-size: 18px;
+    text-align: center;
+    width: 100%;
+    opacity: 0; 
+    transition: opacity 0.5s ease;
+    position: relative;
+    z-index: 1; 
+}
+
+/* Başlık tıklanınca değişen stiller */
+.info-box.active .clickable-title {
+    transform: translate(-50%, -150%);
+    opacity: 0; 
+}
+
+.info-box.active .hidden-text {
+    opacity: 1;
+}
+
+/* Header ve Menü'nün üst boşluğunu kaldır */
+header {
+    margin: 0;
+    padding: 0;
+}
+
+/* Menü stilleri */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}

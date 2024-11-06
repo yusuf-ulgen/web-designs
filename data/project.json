@@ -1,0 +1,19 @@
+{
+    "projects": [
+        {
+            "id": "lingoBridge",
+            "title": "LingoBridge",
+            "description": "LingoBridge, uluslararası iletişimi kolaylaştıran bir mobil sohbet uygulamasıdır. Kullanıcılar, kendi dillerinde yazarken, mesajlar anında karşı tarafın tercih ettiği dile çevrilir. Dil bariyerlerini ortadan kaldırarak, dünya çapında insanları birbirine bağlayan etkili ve kullanımı kolay bir platform sunar."
+        },
+        {
+            "id": "soundEase",
+            "title": "SoundEase",
+            "description": "Geliştirdiğim Müzik Kontrol Paneli, kullanıcıların favori müzik platformlarını (Spotify, YouTube vb.) ekranın sabit bir bölümünden kolayca yönetmelerini sağlar. Modern müzik uygulamalarının aksine, düşük RAM kullanımı ve enerji verimliliği sunarak cihaz performansını olumsuz etkilemez. Kullanıcı dostu arayüzü ve yüksek yanıt hızı ile dikkat çeken bu panel, hem düşük donanımlı cihazlarda hem de yüksek performans gerektiren işlemlerde mükemmel uyum sağlar."
+        },
+        {
+            "id": "smartTranslate",
+            "title": "Smart Translate Panel",
+            "description": "Smart Translate Panel, ekranınızın bir köşesine sabitlenebilen akıllı bir çeviri aracı ile ders çalışırken çeviriyi kolaylaştırır. Modern çeviri teknolojileri ile donatılmış bu panelin dikkat çeken özellikleri: Anında Çeviri: Metinleri hızla çevirerek dil bariyerlerini ortadan kaldırır. Otomatik Dil Tanıma: Girdiğiniz metnin dilini otomatik olarak algılar ve doğru çeviriyi sağlar. Sözlük ve Eşanlamlılar: Çevrilen kelimelerin anlamlarını ve eşanlamlılarını gösterir, dil öğrenimini destekler. Sesli Okuma: Çevrilen metni sesli olarak dinleyebilir, telaffuz öğrenmenize yardımcı olur."
+        }
+    ]
+}

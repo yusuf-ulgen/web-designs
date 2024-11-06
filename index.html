@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Yusuf Ülgen</title>
+    <link rel="stylesheet" href="main_style.css">
+</head>
+<body>
+    <!-- Header ve Menü -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutme.html">About me</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Profil Kartı -->
+    <section class="profile-card">
+        <div class="profile-info">
+            <img src="profilePicture.png" alt="Yusuf Ülgen" class="profile-pic" id="profilePic">
+            <h1 id="name"></h1>
+            <p id="title"></p>
+            <p id="email"></p>
+            <p id="phone"></p>
+        </div>
+        <div class="social-icons">
+            <!-- Sosyal medya simgeleri -->
+            <a id="instagram" target="_blank">
+                <img src="instagram_icon.jpg" alt="Instagram">
+            </a>
+            <a id="linkedin" target="_blank">
+                <img src="linkedin_icon.jpg" alt="LinkedIn">
+            </a>
+            <a id="github" target="_blank">
+                <img src="github_icon.jpg" alt="GitHub">
+            </a>
+        </div>
+    </section>
+
+    <!-- Modal yapısı -->
+    <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+    </div>
+
+    <!-- Hakkımda ve Portfolio Bölümleri -->
+    <section class="about-me">
+        <div class="info-box"></div>
+    </section>
+
+    <section class="portfolio"></section>
+
+    <!-- JavaScript Kodu -->
+    <script src="main_script.js"></script>
+</body>
+</html>
